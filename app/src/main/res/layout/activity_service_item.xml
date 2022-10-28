@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceItem">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:contentInsetStart="0dp"
+        tools:ignore="MissingConstraints">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/activity_tool_bar"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_marginHorizontal="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                app:cardCornerRadius="10dp"
+                android:layout_width="wrap_content">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/unitedServiceIMG"
+                    android:layout_width="fill_parent"
+                    android:layout_height="190dp"
+                    app:srcCompat="@drawable/ser_2" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginBottom="8dp"
+                android:text="United Communication Services" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/red_corner_radius"
+                    android:text="LKR 20K - 100K"
+                    android:textSize="15dp"
+                    android:paddingVertical="2dp"
+                    android:layout_marginRight="20dp"
+                    android:paddingHorizontal="8dp"
+                    android:textColor="@color/white"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:background="@drawable/blue_corner_radius">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        app:srcCompat="@drawable/ic_star_icon_foreground" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 (1)"
+                        android:textSize="14dp"
+                        android:paddingVertical="2dp"
+                        android:paddingLeft="6dp"
+                        android:paddingRight="8dp"
+                        android:textColor="@color/white"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:background="#DBDFFD"
+
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:paddingRight="10dp"
+                            android:textSize="15dp"
+
+                            android:textColor="#000000"
+                            android:text="Phone :-" />
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+
+                            android:layout_width="wrap_content"
+                            android:textColor="#000000"
+                            android:text="+94 11 586 5858" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#000000"
+                            android:paddingRight="10dp"
+                            android:textSize="15dp"
+
+                            android:text="Address :-" />
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textSize="15dp"
+
+                            android:textColor="#000000"
+                            android:text="4th floor,Wijeramaya,Colombo 07" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    app:srcCompat="@drawable/ic_arrow_icon_foreground" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IoT Solutions"
+                    android:textSize="16dp"
+                    android:paddingVertical="2dp"
+                    android:paddingLeft="6dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    app:srcCompat="@drawable/ic_arrow_icon_foreground" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Network Solutions"
+                    android:textSize="16dp"
+                    android:paddingVertical="2dp"
+                    android:paddingLeft="6dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    app:srcCompat="@drawable/ic_arrow_icon_foreground" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unified Communications"
+                    android:textSize="16dp"
+                    android:paddingVertical="2dp"
+                    android:paddingLeft="6dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="United Communications Limited is an Sri Lankan telecommunications company. It's part of the United group. United's communication network spans more than 50,000 km of subsea fiber and more than 40,000 km of terrestrial fiber. "
+                android:textSize="18dp"
+                android:paddingVertical="2dp"
+                android:lineSpacingExtra="4sp"
+                android:justificationMode="inter_word"
+                android:paddingRight="8dp"
+                android:textColor="#000000" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>

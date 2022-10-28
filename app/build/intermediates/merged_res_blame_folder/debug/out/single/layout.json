@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Acer\\.gradle\\daemon\\7.4\\com.example.smartway.app-mergeDebugResources-30:\\layout\\activity_tool_bar.xml",
+        "source": "C:\\Users\\Acer\\.gradle\\daemon\\7.4\\com.example.smartway.app-main-33:\\layout\\activity_tool_bar.xml"
+    },
+    {
+        "merged": "com.example.smartway.app-mergeDebugResources-30:/layout/activity_tool_bar.xml",
+        "source": "com.example.smartway.app-main-33:/layout/activity_tool_bar.xml"
+    }
+]
