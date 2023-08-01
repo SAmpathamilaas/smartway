@@ -12,6 +12,7 @@ import android.widget.TextView;
 public class LoginActivity extends AppCompatActivity {
     TextView sigup2;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

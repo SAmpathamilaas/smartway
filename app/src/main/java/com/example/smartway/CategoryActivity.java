@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class CategoryActivity extends AppCompatActivity {
-
+//
     TextView toolBarTitle;
     TextView educationTXTView;
     ImageView educationIMGView;

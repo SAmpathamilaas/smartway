@@ -117,10 +117,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:hint="Don't have an account ?"
                     android:layout_marginStart="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:hint="Don't have an account ?"
                     android:textColorHint="#ffff"
                     android:textStyle="bold" />
 
@@ -129,9 +128,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:text="SignUp"
                     android:layout_marginStart="20dp"
+                    android:text="SignUp"
                     android:textColor="#3EC143"
                     android:textStyle="bold" />
 
@@ -147,19 +145,23 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom">
+        android:layout_gravity="bottom"
+        >
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="bottom|center"
+
+
             >
 
             <ImageView
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_margin="20dp"
-                android:src="@drawable/google" />
+                android:src="@drawable/google"
+                />
 
             <ImageView
                 android:layout_width="48dp"

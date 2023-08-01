@@ -1,12 +1,34 @@
-com/example/smartway/BuildConfig.java
- com.example.smartway.BuildConfig
 com/example/smartway/ToolBar.java
  com.example.smartway.ToolBar
+com/example/smartway/DataBindingTriggerClass.java
+ com.example.smartway.DataBindingTriggerClass
+com/example/smartway/CategoryActivity.java
+ com.example.smartway.CategoryActivity
+ com.example.smartway.CategoryActivity$1
+ com.example.smartway.CategoryActivity$2
 com/example/smartway/MainActivity.java
  com.example.smartway.MainActivity
  com.example.smartway.MainActivity$1
 com/example/smartway/Home.java
  com.example.smartway.Home
  com.example.smartway.Home$1
+ com.example.smartway.Home$2
+ com.example.smartway.Home$3
+ com.example.smartway.Home$4
+com/example/smartway/SignupActivity.java
+ com.example.smartway.SignupActivity
+com/example/smartway/BuildConfig.java
+ com.example.smartway.BuildConfig
+com/example/smartway/Services.java
+ com.example.smartway.Services
+ com.example.smartway.Services$1
+ com.example.smartway.Services$2
+com/example/smartway/ServiceItem.java
+ com.example.smartway.ServiceItem
 com/example/smartway/LoginActivity.java
  com.example.smartway.LoginActivity
+ com.example.smartway.LoginActivity$1
+com/example/smartway/CategoryItem.java
+ com.example.smartway.CategoryItem
+com/example/smartway/databinding/ActivityToolBarBinding.java
+ com.example.smartway.databinding.ActivityToolBarBinding
